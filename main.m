@@ -13,3 +13,4 @@ for i = 1: num_N
     degree_G(i,i) = sum(adjacency_G(i,:));
 end
 laplacian_G = degree_G - adjacency_G;
+% system dynamics
